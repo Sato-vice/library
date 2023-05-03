@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Comme', sans-serif;
+    background-color: #dbe0b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.books {
+    color: white;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 30px;
+    transition: 1s ease;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.book {
+    background-color: #619179;
+    color: white;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    width: 700px;
+    background-color: #747373;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+
+.remove-btn {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4a373;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.remove-btn:hover {
+    border: 2px solid #d4a373;
+    color: #d4a373;
+    background-color: #faedcd;
+    transition: 0.5s ease;
+}
+
+
+
+
+@media (max-width:600px) {
+    .navbar {
+        width: 450px;
+        padding-right: 15px;
+        transition: 1s ease;
+    }
+
+    .books {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 0;
+        transition: 1s ease;
+    }
+
+}
+
+@media (max-width:700px) {
+    .navbar {
+        width: 450px;
+        padding-right: 15px;
+        transition: 1s ease;
+    }
+
+    .books {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 0;
+        transition: 1s ease;
+    }
+
+}
+
+
+@media (max-width:800px) {
+    .navbar {
+        width: 450px;
+        padding-right: 15px;
+        transition: 1s ease;
+    }
+
+    .books {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 0;
+        transition: 1s ease;
+    }
+
+}
+

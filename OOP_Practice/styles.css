@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: url("https://top-fon.com/uploads/posts/2023-01/1674696203_top-fon-com-p-fon-dlya-prezentatsii-sovremennaya-bibliot-21.jpg") center center / cover;
+}
+
+
+.logo {
+    color: white;
+}
+
+/* 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    color: white;
+    gap: 50px;
+}
+
+.addContainer {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.removeContainer {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+} */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    width: 700px;
+    background-color: #747373;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.form-container {
+    background-color: #8da9c4;
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 200px;
+    /* background-color: white; */
+    padding-left: 10px;
+
+}
+
+.input {
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.btn {
+    margin-left: 50px;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    background-color: #23436b;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0b2545;
+    transition: 0.5s ease;
+}
+
+
+
+.welcome {
+    margin-top: 0px;
+}
+
+#display_image {
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:600px) {
+    .navbar {
+        width: 450px;
+        padding-right: 15px;
+        transition: 1s ease;
+    }
+}
